@@ -1,0 +1,169 @@
+html {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    }
+
+body {
+    font-family: Arial, serif;
+    font-size: 25px;
+    font-style: italic;
+    font: bolder;
+    color: rgba(2, 33, 128, 0.603);
+    padding: 0 20px 0 20px;
+    width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+    background-color: rgb(219, 208, 184);
+    }
+
+header {
+    height: 60px;
+    width: 1200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    }
+
+nav {
+    display: flex;
+    align-items: center;
+    }
+
+nav a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: rgba(2, 33, 128, 0.603);
+    }
+
+nav a:hover{
+    color: red;
+    text-decoration: underline ;
+    }
+ 
+div a:hover{
+    color: red;
+    text-decoration: underline ;
+    }
+
+div a {
+    text-decoration: none;
+    color: rgb(2, 33, 128);
+    }
+  
+
+.first-block {
+    height: 600px;
+    padding-top:20px;
+    padding-left:20px;
+    background-image: url('/image/*.jpg');
+    background-size: 600px;
+    background-repeat: no-repeat;
+    background-position: right center;   
+} 
+
+/* SERVICES BLOCKK STYLES */
+
+.fixed-conteiner {
+    width: 1200px;
+    margin: 0 auto 0 auto;
+    }
+
+.services-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.services {
+    margin: 10px;
+    justify-content: center;
+
+}
+.prices  {
+    width: 400px;
+    box-sizing: content-box;
+    }
+
+ .dbl-border {
+    position: relative;
+    display: table;
+    margin: 10px auto;
+ }
+ .dbl-border img {
+    display: block;
+ }
+ .dbl-border:before, .dbl-border:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #40D8EC;
+ }
+ .dbl-border:before {
+    top: -15px;
+    left: -15px;
+ }
+ .dbl-border:after {
+    right: -15px;
+    bottom: -15px;
+ }
+ .image-wrapper {
+    position: relative;
+    z-index: 2;
+    height: 300px;
+    padding: 5px;
+    background: white;
+    box-shadow: 1px 1px 20px 0 rgba(0, 0, 0, 0.1);
+ }
+
+img {
+    width: 300px;
+    height: 300px;
+}
+.icon {
+    margin-right: 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+}
+/* SERVICES BLOCKK STYLES */
+
+/* WORKS BLOCKK STYLES */
+.works-list {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0 0 0;
+    }
+.works-list div {
+    background-repeat: no-repeat;
+    background-position: left top;
+    }
+/* WORKS BLOCKK STYLES */
+
+/* PRICES BLOCK STYLES */
+.prices-list {
+    display: flex;
+    justify-content: space-between;    
+   }
+.prices-list p {
+    font-size: 90%;
+}
+
+
+/* PRICES BLOCK STYLES */
+   
+.development {
+    box-sizing: border-box;
+    justify-content: space-around;
+    padding-bottom: 10px;
+    background-color: rgb(220, 210, 190);
+    color: rgba(2, 33, 128, 0.603);
+    font-size: 20px;
+}
+.icon_footer {
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+}
